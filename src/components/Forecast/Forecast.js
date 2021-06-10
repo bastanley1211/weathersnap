@@ -71,7 +71,7 @@ const Forecast = () => {
                 id="searchBar"
                 name="searchBar"
                 value={city}
-                placeholder="Enter city (i.e. London,  New York, etc."
+                placeholder="Enter city (i.e. London,  New York, etc.)"
                 maxLength="50"
                 onChange={(e) => {
                   setCity(e.target.value);
