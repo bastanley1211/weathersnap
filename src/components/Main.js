@@ -17,6 +17,12 @@ class Main extends React.Component {
 
     return (
       <>
+        <div className="promo bg-warning text-center">
+          <small style={{ fontSize: "10px" }}>
+            Note to viewer: This app is an experiment to learn and test API
+            technology. It is consistently being improved upon.
+          </small>
+        </div>
         <div className="weather-container container-fluid">
           <Header />
           <Switch>
