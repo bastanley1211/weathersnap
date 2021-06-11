@@ -28,7 +28,7 @@ const Forecast = () => {
     let uriEncodedCity = encodeURIComponent(city);
 
     fetch(
-      `https://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity},${uriEncodedState}`,
+      `http://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity},${uriEncodedState}`,
       {
         method: "GET",
         headers: {
