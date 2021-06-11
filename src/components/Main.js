@@ -20,7 +20,8 @@ class Main extends React.Component {
         <div className="promo bg-warning text-center mb-3 p-1">
           <small style={{ fontSize: "10px" }}>
             Note to user: This app is an experiment to learn and test API
-            technology. It is consistently being improved upon.
+            technology. It is consistently being improved upon. It may not work
+            at some points due to bugs or testing.
           </small>
         </div>
         <div className="weather-container container-fluid">
