@@ -25,7 +25,7 @@ const Forecast = () => {
 
     setLoading(true);
 
-    // let uriEncodedCity = encodeURIComponent(city);
+    let uriEncodedCity = encodeURIComponent(city);
 
     fetch(
       `https://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity},${uriEncodedState}`,
